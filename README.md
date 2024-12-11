@@ -19,19 +19,17 @@ Use your knowledge of object-oriented programming, one-dimensional (1D) arrays, 
 
 Include a hyperlink to the source of your dataset used for this project. Additionally, provide a short description of each column used from the dataset, and the data type.
 
-Example:
 
-Dataset: https://www.kaggle.com/datasets/sansuthi/global-co2-emissions
+Dataset: https://docs.google.com/spreadsheets/d/1RkQ1iMvTLIzYaPRcqNUXR6vdvAXIwISO1ji6bWJRzJo/edit?usp=sharing
 
-- **Country** (String) - name of the country
-- **Population** (int) - number of people in the country
-- **CO2Emissions** (double) - carbon dioxide emission in kilotons
+- **Owner** (String) - name of the owner of the instagram account
+- **Followers** (int) - number of people who follow the person (in the millions)
 
 ## UML Diagram
 
 Put and image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here. Make sure your image file name is one work, otherwise it might not properly get display on this README.
 
-![UML Diagram for my project](nameOfImageFileHere.png)
+![UML Diagram for my project](<Copy of (Unit 4) UML Diagram.png>)
 
 ## Video Demo
 
@@ -43,8 +41,8 @@ Record a short video of your abstract art animation to display here on your READ
 - Upload the thumbnail image to your repo.
 - Use the following markdown
 
-[![Thumbnail for my projet](nameOfThumbnail.png)](youtube-URL-here)
+[![Thumbnail for my projet](thumnail.png)](https://drive.google.com/file/d/1WF1r9w20oItelOysApEeE7e66V26_-Hj/view?usp=sharing)
 
 ## Description
 
-Write a description of your project here. In your description, include as many vocab words from our class to explain your User Story, the chosen dataset and how your project addressed that users goals. If your project used the Scanner class for user input, explain how the user will interact with your project.
+For this project, we had the user explore the different following amounts of the most followed people on instagram. This program would traverse the users list and randomly display the owners of the account and the amount of followers they have. The program will then use the draw elipses method to show a visual representation of the amount of followers a user has as circles. The colors of the words and shapes displayed change depending on the amount of followers the instagram user may have. Using a multi-selection statement, it determines whther the user displayed is a small insta user, a "mid" insta user, or big insta user.
